@@ -1,0 +1,160 @@
+
+In head in HTML:
+<style>
+  a{
+    text-decoration:none;
+  }
+  </style>
+
+  .content {
+    width: 1000px;
+    padding-left:110px;
+  }
+
+  .banner {
+    position: absolute;
+    height: 30px;
+    top: -20px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    opacity: 0.8;
+
+  }
+
+
+  .content {
+    width: 1000px;
+    margin: auto;
+  }
+
+#sunflower {
+  width: 1445px;
+}
+
+#cloud {
+  width:500px;
+  padding-left:270px;
+  padding-top:100px;
+}
+
+#rose {
+  width:500px;
+  padding-left:270px;
+  padding-top:150px;
+}
+
+#seal {
+  width:500px;
+  padding-left:270px;
+  padding-top:150px;
+}
+
+#shadow {
+  width:500px;
+  padding-left:270px;
+  padding-top:150px;
+}
+
+#vase {
+  width:500px;
+  padding-left:270px;
+  padding-top:150px;
+}
+#whitenoise {
+  width:500px;
+  padding-left:270px;
+  padding-top:150px;
+}
+
+h2 {
+  padding-top:280px;
+  padding-left:280px;
+  color:Peru;
+  font-family:Lucida;
+  font-size:50px;
+}
+
+h3 {
+  padding-left:180px;
+  font-size:20px;
+  color:SandyBrown;
+  font-family:Lucida;
+  font-size:28px;
+}
+
+
+
+
+
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: SandyBrown;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  z-index: 10000;
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: White;
+  display: block;
+  transition: 0.3s;
+  z-index: 10000;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: Tomato;
+  z-index: 10000;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  z-index: 10000;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: SandyBrown;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  position: fixed;
+  z-index:10000;
+}
+
+.openbtn:hover {
+  background-color: Tomato;
+  z-index: 10000;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
