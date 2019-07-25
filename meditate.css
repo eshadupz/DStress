@@ -1,0 +1,145 @@
+h1 {
+  height: 300px
+}
+
+h2 {
+  font-size: 50px;
+  color: #E56717
+}
+
+h3 {
+  color: #E56717
+}
+
+In head in HTML:
+<style>
+    a{
+      text-decoration:none;
+    }
+    </style>
+
+  #mountains {
+    width: 1445px;
+  }
+
+
+
+
+  .content {
+  width: 1000px;
+  margin: auto;
+}
+
+.banner {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 50%;
+  top: -20px;
+  text-align: left;
+  width: 1600px;
+  opacity:0.8;
+
+}
+
+/* ul { display:table; margin:0 auto;} */
+
+ul{
+  display:inline-block;
+}
+li{
+  text-align: left;
+}
+
+.maintext {
+  padding-top: 300px;
+  /* padding-left: 110px; */
+  color: #FF9949;
+  font-family: Lucida;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
+#meditation {
+  width: 1000px;
+
+}
+
+
+#mountain {
+  width:1445px;
+}
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100000; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: Orange; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
+  z-index: 10000;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #C68E17;
+  z-index: auto;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: Orange;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  position: fixed;
+  z-index: 10000;
+}
+
+.openbtn:hover {
+  background-color: #FBB117;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+#leaves {
+  width:1445px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}

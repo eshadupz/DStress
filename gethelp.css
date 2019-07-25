@@ -1,0 +1,29 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #AEC6CF;
+  color: #FFFFFF;
+  font-family: Inherit;
+  width: 500px;
+  margin-left: 400px
+
+}
+
+h1 {
+  width: 1000px;
+  margin: auto;
+  margin-top: 60px;
+  font-family: inherit;
+  font-size: 90px;
+  length: 50px;
+  color: #000000
+    }
+
+h2 {
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    length: 50px;
+    line-height: 1cm;
+    font-size: 60px
+}
