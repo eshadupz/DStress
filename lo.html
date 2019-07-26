@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="lo.css">
 
     <link rel= "stylesheet" href="collapsed_sidebar.css">
+    <script src="lo.js"></script>
     <script src="collapsed_sidebar.js"></script>
+    <script>
+      function clearText() {
+
+        document.getElementById("clearTXT").value = "";
+      }
+    </script>
 
 
 </head>
@@ -46,9 +53,18 @@
 
 
        <div class="confessiontext">
-          <textarea rows="50" cols="80"></textarea>
+          <textarea id="clearTXT" rows="50" cols="80"></textarea>
           <p>
-          <input type="Submit">
+          <!-- <input type="submit" value="Submit"> -->
+          <button onclick="clearText()">Submit</button>
+
+      <!-- <form>
+      <input type= "text" name="searchbox" id="clearTXT" />
+      <br>
+      <br>
+
+      <input type="button" onclick="clearText()" value="Cleartext" id="button" />
+    </form> -->
         </div>
       </div>
     </div>
